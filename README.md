@@ -8,7 +8,7 @@
 
 ## Enunciado
 
-### Pasando lista
+### 1. Pasando lista
 
 Eres profesor de una clase de la que te piden que pases asistencia. Cada alumno, según
 llega a clase, confirma su asistencia y en la lista aparece su número identificador como un
@@ -17,7 +17,7 @@ lista un alumno ya registrado. </br>
 Tu objetivo es, dada la lista de identificadores A con longitud n, obtener el número de
 identificadores únicos en ella sin hacer uso de estructuras adicionales (sets, listas, etc).
 
-### Prevención de riesgos
+### 2. Prevención de riesgos
 
 Hay n niños que quieren subir a una noria, y tu tarea es encontrar una góndola para cada
 niño. </br>
@@ -25,7 +25,7 @@ Cada góndola puede tener uno o dos niños, y además, el peso total en una gón
 puede exceder x. Conoces el peso de cada niño. </br>
 ¿Cuál es el número mínimo de góndolas necesarias para los niños? </br>
 
-### SSIFF
+### 3. SSIFF
 
 Se está dando lugar el Festival de Cine de San Sebastián. Tienes el abono completo y
 quieres ver tantas películas como puedas. </br>
