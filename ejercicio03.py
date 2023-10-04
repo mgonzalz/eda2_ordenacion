@@ -7,10 +7,11 @@ for _ in range(n):
     horarios.append([a,b])
 
 horarios.sort()
-for i in range(n-1):
-    if horarios[i][1] > horarios[i+1][0]:
+
+hora_final = 0 # guardamos la hora final de la pelicula anterior
+for inicio, final in horarios:
+    if inicio >= hora_final:
         total += 1
-        horarios[i+1][0] = horarios[i][0]
-        horarios[i+1][1] = horarios[i][1]
+        hora_final = final
 
 print(total)
