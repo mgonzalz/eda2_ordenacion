@@ -2,7 +2,9 @@
 En caso de no estar permitida la función sort para el ordenado de listas, 
 se puede implementar un algoritmo de ordenamiento como el siguiente:
 
-Se trataría del algortimo quicksort, que es un algoritmo de ordenamiento de complejidad O(nlog(n)).
+Se trataría del algortimo quicksort, que es un algoritmo de ordenamiento de complejidad O(nlog(n)) siendo el mejor caso.
+
+Sino se trataría de una complejidad exponencial O(n^2), siendo este el peor caso.
 '''
 
 def quick_sort(array):
